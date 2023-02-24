@@ -25,10 +25,16 @@ a{
 font{
 	color: yellow;
 }
+.datos{
+	position: relative;
+	display: grid;
+	width: 100%;
+	gap: 40PX;
+}
 .content{
 	position: relative;
 	display: grid;
-	
+	justify-content: center;
 	width: 100%;
 	gap: 40PX;
 }
