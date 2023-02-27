@@ -1,3 +1,6 @@
+p{
+	color: wheat;
+}
 h1{
 	color: wheat;
 	text-align: center;
@@ -20,7 +23,7 @@ body{
 	color: #FFFFFF;
 }
 a{
-	color: wheat;
+	text-decoration: none;
 }
 font{
 	color: yellow;
