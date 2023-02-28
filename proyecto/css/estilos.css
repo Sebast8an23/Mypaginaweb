@@ -76,3 +76,10 @@ button span:not(hover){
 table{
 	width: 100%;
 }
+container-max-widths {
+  all: sm 540px;
+  all: md 720px;
+  all: lg 960px;
+  all: xl 1140px;
+  all: xxl 1320px;
+  }
