@@ -4,34 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Validacion</title>
-	<link rel="stylesheet" href="proyecto/css/estilos.css">
-
-	<script>
-		function comprobarClave() {
-			clave1 = document.f1.clave1.value
-			clave2 = document.f1.clave2.value
-
-			if (clave1 == "admin" && clave2 == "angel123"){
-				alert("Los Datos Coinciden...\n Bienvenido");
-					var href = "proyecto/html/principal.html";
-					window.location=href;
-				}
-
-			else{ 
-				alert("Error...\nIntentelo Nuevamente");
-					var href = "index.html";
-					window.location=href;
-			};	
-		}
-	</script>
+    <link href="proyecto/but5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="proyecto/css/estilos.css">
 </head>
 
 <body>
-	<div class="container-sm">
-<div class="container-md">
-<div class="container-lg">
-<div class="container-xl">
-<div class="container-xxl">
 	<br>
 	<h1>Validar Usuario y Password</h1>
 
@@ -57,11 +34,11 @@
 				</div>	
 	<hr color = "blue"> 	
 	<h1>Presionar Boton de Ingresar</h1>
+	<font width: 15em; height: 15em;>
 	<img src = "proyecto/imagenes/ima.gif"><br>
+	</font>
 	</div>
-</div>
-</div>
-</div>
-	</div>
+	<script src="proyecto/js/main.js"></script>
+    <script src="proyecto/but5/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -13,11 +13,9 @@ h2{
 	text-align: center;
 	font-size: 16pt;
 }
-img{
-	float: a; width: 15em; height: 15em;
-}
+
 body{
-	background-image: url('https://cinemagavia.es/wp-content/uploads/2022/10/imagenes-de-stock.jpg');
+	background-image: url('https://th.bing.com/th/id/OIP.q62ikIS3mWqM_YLhq0LOQwHaEo?pid=ImgDet&w=650&h=406&rs=1');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -77,11 +75,3 @@ button span:not(hover){
 table{
 	width: 100%;
 }
-container-max-widths {
-  all: 540px;
-  all: 720px;
-  all: 960px;
-  all: 1140px;
-  all: 1320px;
-  }
- 
