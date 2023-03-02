@@ -72,6 +72,3 @@ button span:hover{
 button span:not(hover){
 	transition: all 1s;
 }
-table{
-	width: 100%;
-}
